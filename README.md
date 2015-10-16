@@ -1,26 +1,36 @@
-# my first Third parties Libraries
+# YNActionSheet —— An elegant actionSheet in Swift 
 
 ***
 
-It is a custom actionSheet used on iOS, which implement by Swift.  
+** YNActionSheet is a custom actionSheet used on iOS, which implement by Swift. **
 
  ![YNActionSheet.gif](/Resource/YNActionSheet.gif)
 
 
 ### USAGE
 
+	```Swift
+	var actionSheetView = YNActionSheet()
+	actionSheetView.delegate = self
+	actionSheetView.addCancelButton("CancelName")
+	actionSheetView.addButtonWithTitle("titleName")
+	self.presentViewController(actionSheetView,animate:true,completion: nil)
+	```
+
+### Installation
+
  - CocoaPods:
 
  	` pod 'YNActionSheet' `
 
- - Manual
+ - Manually:
 
  	 Download the file YNActionSheet and then drag it to the project
 
 
 ### LICENSE 
 
- MIT LICENSE
+ YNActionSheet is released under the MIT LICENSE.See License for details.
 
  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,

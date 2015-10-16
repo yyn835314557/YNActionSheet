@@ -2,20 +2,20 @@
 
 ***
 
-** YNActionSheet is a custom actionSheet used on iOS, which implement by Swift. **
+**YNActionSheet is a custom actionSheet used on iOS, which implement by Swift.**
 
  ![YNActionSheet.gif](/Resource/YNActionSheet.gif)
 
 
 ### USAGE
 
-	```Swift
-	var actionSheetView = YNActionSheet()
-	actionSheetView.delegate = self
-	actionSheetView.addCancelButton("CancelName")
-	actionSheetView.addButtonWithTitle("titleName")
-	self.presentViewController(actionSheetView,animate:true,completion: nil)
-	```
+```Swift
+var actionSheetView = YNActionSheet()
+actionSheetView.delegate = self
+actionSheetView.addCancelButton("CancelName")
+actionSheetView.addButtonWithTitle("titleName")
+self.presentViewController(actionSheetView,animate:true,completion: nil)
+```
 
 ### Installation
 

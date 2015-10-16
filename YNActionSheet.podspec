@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   #                    It is a custom actionSheet used on iOS, which implement by Swift.  
   #                   DESC  
   s.homepage         = "https://github.com/yyn835314557/YNActionSheet"  
-  s.screenshots      = "https://github.com/yyn835314557/YNActionSheet/blob/master/Resource/screenshots_1.png"
+  #s.screenshots      = "https://github.com/yyn835314557/YNActionSheet/blob/master/Resource/screenshots_1.png"
   s.license          = 'MIT'  
   s.author           = { "游义男" => "youyinan@hhu.edu.cn" }  
   s.source           = { :git => "https://github.com/yyn835314557/YNActionSheet.git", :tag => s.version.to_s }  

@@ -7,7 +7,7 @@
  ![YNActionSheet.gif](/Resource/YNActionSheet.gif)
 
 
-### USAGE
+## USAGE
 
 ```Swift
 var actionSheetView = YNActionSheet()
@@ -17,7 +17,7 @@ actionSheetView.addButtonWithTitle("titleName")
 self.presentViewController(actionSheetView,animate:true,completion: nil)
 ```
 
-### Installation
+## Installation
 
  - CocoaPods:
 
@@ -28,7 +28,7 @@ self.presentViewController(actionSheetView,animate:true,completion: nil)
  	 Download the file YNActionSheet and then drag it to the project
 
 
-### LICENSE 
+## LICENSE 
 
  YNActionSheet is released under the MIT LICENSE.See License for details.
 
